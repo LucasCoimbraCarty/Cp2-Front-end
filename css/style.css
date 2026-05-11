@@ -58,18 +58,17 @@ body{
     font-size: var(--font-size-p);
 }
 
+ol {
+    font-size: var(--font-size-p);
+}
+
 .foto{
-    width: 30%;
+    width: 50%;
 }
 
 button{
     margin-top: var(--spacing-s40);
     margin-right: var(--spacing-s40);
-    
-}
-
-hero {
-    padding-top: 60px;
     
 }
 
@@ -82,6 +81,8 @@ hero {
     background-color: var(--color-cinza-es);
     padding: var(--spacing-s20);
     color: var(--color-bege-cl-pele);
+    width: 30%;
+    font-size: large;
 }
 
 
@@ -89,6 +90,8 @@ hero {
     color: var(--color-cinza-es);
     background-color: transparent;
     padding: var(--spacing-s20);
+    width: 40%;
+    font-size: large;
 }
 
 .cont2{
@@ -109,6 +112,11 @@ hero {
     border: 2px solid var(--color-cinza-es); 
     width: 280px;  
     height: 420px;  
+}
+
+.card img {
+    width: 70%; 
+    height: 50%; 
 }
 
 .lista {

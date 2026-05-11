@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: var(--color-cinza-es);
+    font-family: "Mozilla Headline", sans-serif;
+}
+
+:root{
+    --color-cinza-es: #22223b;
+    --color-cinza-cl: #4a4e69;
+    --color-bege-es: #9a8c98;
+    --color-bege-cl: #c9ada7;
+    --color-bege-cl-pele: #f2e9e4;
+    --spacing-s10: 10px;
+    --spacing-s20: 20px;
+    --spacing-s30: 30px;
+    --spacing-s40: 40px;
+    --spacing-s50: 50px;
+    --spacing-s60: 60px;
+    --spacing-s70: 70px;
+    --spacing-s80: 80px;
+    --spacing-s90: 90px;
+    --spacing-s100: 100px;
+    --font-size-h1: 8dvh;
+    --font-size-h2: 6dvh;
+    --font-size-h3: 3dvh;
+    --font-size-p: 3dvh;
+}
+
+body{
+    background-color: var(--color-bege-cl-pele);
+}
+
+.container {
+    width: 100%;
+    min-height: 100dvh;
+    padding: 90px;
+    border-style: solid; 
+}
+
+.container h1{
+    font-size: var(--font-size-h1);
+    margin-bottom: var(--spacing-s30);
+}
+
+.container h2{
+    font-size: var(--font-size-h2);
+    margin-bottom: var(--spacing-s30);
+}
+
+.container h3{
+    font-size: var(--font-size-h3);
+    margin-bottom: var(--spacing-s30);
+}
+
+.container p{
+    font-size: var(--font-size-p);
+}
+
+.foto{
+    width: 30%;
+}
+
+button{
+    margin-top: var(--spacing-s40);
+    margin-right: var(--spacing-s40);
+    
+}
+
+hero {
+    padding-top: 60px;
+    
+}
+
+.cont1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bt-principal {
+    background-color: var(--color-cinza-es);
+    padding: var(--spacing-s20);
+    color: var(--color-bege-cl-pele);
+}
+
+
+.bt-secundario {
+    color: var(--color-cinza-es);
+    background-color: transparent;
+    padding: var(--spacing-s20);
+}
+
+.cont2{
+    text-align: center;
+}
+
+.cards-v {
+    padding-top: var(--spacing-s50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-s30);
+}
+
+.card{
+    background-color: var(--color-bege-es);
+    text-align: center;
+    border: 2px solid var(--color-cinza-es); 
+    width: 280px;  
+    height: 420px;  
+}
+
+.lista {
+    margin-top: var(--spacing-s30);
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.cont3{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color:  var(--color-bege-es);
+    height: 100px;
+}
+
+footer p{
+    background-color:  transparent;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-bege-cl-pele);
+    font-size: 4dvh;
+}

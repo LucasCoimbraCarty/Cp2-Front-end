@@ -69,6 +69,7 @@ ol {
 button{
     margin-top: var(--spacing-s40);
     margin-right: var(--spacing-s40);
+    padding: var(--spacing-s40);
     
 }
 

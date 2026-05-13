@@ -102,21 +102,27 @@ button{
     padding-top: var(--spacing-s50);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
     gap: var(--spacing-s30);
+    align-items: stretch;
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: var(--color-bege-es);
     text-align: center;
     border: 2px solid var(--color-cinza-es); 
-    width: 280px;  
-    height: 420px;  
+    max-width: 300px;
+    min-height: 500px;
 }
 
 .card img {
+    margin: var(--spacing-s10);
     width: 70%; 
-    height: 50%; 
+    height: auto;
 }
 
 .lista {

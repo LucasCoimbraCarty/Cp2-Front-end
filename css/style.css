@@ -119,6 +119,11 @@ button{
     min-height: 500px;
 }
 
+.card p {
+    height: 150px;
+    width: 90%;
+}
+
 .card img {
     margin: var(--spacing-s10);
     width: 70%; 
